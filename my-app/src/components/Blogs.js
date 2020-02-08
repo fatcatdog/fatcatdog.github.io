@@ -1,6 +1,5 @@
 import React from "react";
 import Header from './Header';
-import Footer from './Footer';
 import '../styles/Blogs.css';
 import { Link } from 'react-router-dom'
 // import ReactMarkdown from 'react-markdown';
@@ -30,8 +29,6 @@ const Blogs = () => {
            </ul>
         </div>
       </div>
-
-      <Footer />
     </div>
   )
 }
