@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import 'github-markdown-css'
 import Header from './Header';
-import Footer from './Footer';
 import '../styles/Blog.css';
 import ReactMarkdown from 'react-markdown';
 import { blogsDetails } from '../utils/stuff';
@@ -19,7 +18,7 @@ import { blogsDetails } from '../utils/stuff';
        })
 
        if(ourBlogObj[0] === undefined) {
-         console.log(ourBlogObj)
+         // console.log(ourBlogObj)
        } else {
          const theUrl = ourBlogObj[0].ourUrl;
          var words = theUrl.split("/")
@@ -53,7 +52,6 @@ import { blogsDetails } from '../utils/stuff';
           />
         </div>
       </div>
-      <Footer />
     </div>
   )
 }

@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from './Header';
-import Footer from './Footer';
 import '../styles/Projects.css';
 import { projects } from '../utils/stuff';
 
@@ -33,7 +32,6 @@ const Projects = () => {
          </ul>
       </div>
       </div>
-      <Footer />
     </div>
   )
 }
