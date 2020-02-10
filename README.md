@@ -1,3 +1,0 @@
-This is the 2020 version of my portfolio site.
-
-Built with React...
