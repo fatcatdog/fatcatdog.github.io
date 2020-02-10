@@ -11,10 +11,10 @@ const Projects = () => {
       <Header />
       <div className="projectsHeader">
         <h2>Personal Projects</h2>
+          <p>Below are web apps I've built over the last few years:</p>
       </div>
       <div className="projectsContainer">
       <div className="listOfProjects">
-        <p>Below are web apps I've built over the last few years:</p>
         <ul className="ourListStyles">
            {data.map(project => (
              <li key={project.name}>
