@@ -10,6 +10,7 @@ import Header from './components/Header';
 import * as serviceWorker from './serviceWorker';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import './styles/NoMatchPage.css';
+// import {Helmet} from "react-helmet";
 
 function NoMatchPage() {
   return(
@@ -27,15 +28,14 @@ const routing = (
   <Router>
     <div>
       <Switch>
-      <Route exact path="/" component={Blogs} />
-      <Route exact path="/projects" component={Projects} />
-      <Route exact path="/about" component={About} />
-      <Route exact path="/contact" component={Contact} />
-      <Route exact path="/blogs" component={Blogs} />
+      <Route exact path="/" component={Projects} />
+      <Route path="/projects" component={Projects} />
+      <Route path="/about" component={About} />
+      <Route path="/contact" component={Contact} />
+      <Route path="/blogs" component={Blogs} />
       <Route path="/blog/:tag" component={Blog} />
       <Route component={NoMatchPage} />
       </Switch>
-
     </div>
   </Router>
 );
