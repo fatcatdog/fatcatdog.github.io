@@ -81,6 +81,6 @@ While Apple pledges 5 years of support per device, Google recently cut support t
 
 ###### John Mitchell, a Motorola engineer behind the phone, with his phone on the streets of New York. He helped develop the design for the first mobile phone. Blurb and phone taken from this cool [site](https://www.considerable.com/entertainment/retronaut/can-you-hear-me-now-the-rise-of-the-monster-mobile-phone/).
 
-The technologies behind modern phones are amazing. Part of what makes that technology, and the utility of that technology, is the prices of these devices.
+The technologies behind modern phones are amazing. Part of what makes that technology, and the utility of that technology, so amazing is the prices of these devices.
 
 I think a lot consumers who buy top tier phones do so because they want to keep up with the Joneses and they don't realize they cant afford those devices. I don't think most people care if they can't play Call of Duty on their cell phones or their photos aren't going to get into National Geographic because the pixel quality lacks. In an era when American consumers are overworked, or underworked, and retirement plans seem to exist in peril for most Americans, its bizzare to see the average American pull out a $1000 device to complain about cost of living difficulties.
