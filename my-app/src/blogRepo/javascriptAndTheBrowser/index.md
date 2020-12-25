@@ -68,13 +68,38 @@ Lets look at the other folders and files in our folder. We want to stay in the f
 
 <img height="400" src="../javascriptAndTheBrowser/sourcesFolderShowingIndexFile.png" alt="Looking at the files in our domain sources folder">
 
-
 ### Lets look around, surprise surprise, I see lots of JavaScript!
 
 
 <img height="400" src="../javascriptAndTheBrowser/allStaticFiles.png" alt="Lots of files in our sources tab">
 
 My website, fatcatdog.github.io, is built with React's Create React App framework. If you look at a Create React App's configuration files, there is a lot going on. To be honest, i don't understand what all the different properties and settings are doing. Create React App definitly saved time in building this website though.
+
+## Lets try execute some JavaScript in Chrome Dev Tools
+
+I was wondering, how much money does the average American spend on Christmas festivities every year?
+
+<img height="400" src="../javascriptAndTheBrowser/avgChristmasSpend.png" alt="Avg american spend on christmas is 1000 $ looks like">
+
+Looks like $1000 to me. I want to calculate, over 40 years, from the ages of 21 to 61, how much money could the average American have saved if they were not to spend any money on Christmas? Lets assume, if instead of spending $1000 on gifts and party stuff, they were to invest that into the S&P 500 into a low fee or no fee investment vehicle. The average return on the S&P 500 looks to be close to 10%, so we need to do some math to calculate how much Americans are missing in savings here.
+
+Here is the JavaScript/math i came up with:
+
+```
+missedSavings = 0;
+
+for (let i = 0; i < 40; i++) {
+missedSavings = missedSavings + 2000;
+missedSavings = missedSavings * 1.10;
+}
+
+missedSavings;
+```
+Lets pop it in Chrome Dev Tools's Console:
+
+<img height="400" src="../javascriptAndTheBrowser/missedSavingsConsole.png" alt="screenshot of our javascript in chrome dev tools console">
+
+It looks like average Americans are missing out on close to $1,000,000 dollars in lifetime savings by celebrating Christmas! Santa Claus isn't even real and they are throwing away McMansions!
 
 ## Without using React, or any other complicated JavaScript front-end framework, how can we run some JavaScript in the browser?
 
@@ -194,5 +219,6 @@ This function tries to change the color of the contents in element with ID "home
 
 <img height="300" src="../javascriptAndTheBrowser/websiteInAction.png" alt="Looks like our JavaScript is working">
 
+The only changes we would need to make in this project to deploy it online, would be to change the file/path location from our local computer environment.
 
 Thats is for now, thanks for reading. Feel free to contact me at [@fatcatdog2](https://twitter.com/fatcatdog2) with any comments, pointers, or suggestions for different content.
