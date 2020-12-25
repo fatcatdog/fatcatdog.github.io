@@ -10,8 +10,7 @@ export const projects = [
   // {name:"", description: "", url: "", demoUrl: "", screenshot: "" },
 
 export const blogsDetails = [
-  {tag:4, name:"JavaScript and the web browser", ourDate:"12-24-2020", ourUrl:"../blogRepo/javascriptAndTheBrowser/index.md"},
-  {tag:3, name:"Another Fake Blog Post", ourDate:"2-7-2020", ourUrl:"../blogRepo/anotherFakeBlog/index.md"},
-  {tag:2, name:"Fake Blog Post", ourDate:"2-6-2020", ourUrl:"../blogRepo/fakeBlog/index.md"},
+  {tag:3, name:"On Fixing Things", ourDate:"12-24-2020", ourUrl:"../blogRepo/fixingThings/index.md"},
+  {tag:2, name:"JavaScript and the web browser", ourDate:"12-22-2020", ourUrl:"../blogRepo/javascriptAndTheBrowser/index.md"},
   {tag:1, name:"Build basic D3.js(D3 Plus) Data Visualizations with your Email Data", ourDate:"11-17-2017", ourUrl:"../blogRepo/2017-11-17-project-in-production/index.md"}
 ];
