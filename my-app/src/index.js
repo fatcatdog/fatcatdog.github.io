@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Projects from './components/Projects';
 import About from './components/About';
-import Contact from './components/Contact';
 import Blogs from './components/Blogs';
 import Blog from './components/Blog';
 // import NoMatchPage from './components/NoMatchPage';
@@ -31,7 +30,6 @@ const routing = (
       <Route exact path="/" component={Projects} />
       <Route path="/projects" component={Projects} />
       <Route path="/about" component={About} />
-      <Route path="/contact" component={Contact} />
       <Route path="/blogs" component={Blogs} />
       <Route path="/blog/:tag" component={Blog} />
       <Route component={NoMatchPage} />
