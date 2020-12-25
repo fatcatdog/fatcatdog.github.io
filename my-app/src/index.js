@@ -4,38 +4,23 @@ import Projects from './components/Projects';
 import About from './components/About';
 import Blogs from './components/Blogs';
 import Blog from './components/Blog';
-// import NoMatchPage from './components/NoMatchPage';
-import Header from './components/Header';
 import * as serviceWorker from './serviceWorker';
-import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+import { Route, HashRouter, Switch } from 'react-router-dom';
 import './styles/NoMatchPage.css';
 // import {Helmet} from "react-helmet";
 
-function NoMatchPage() {
-  return(
-    <div>
-      <div className="everything">
-        <Header />
-          <h2>404</h2>
-        <p>Something went very wrong :(</p>
-      </div>
-    </div>
-  )
-}
-
 const routing = (
-  <Router>
+  <HashRouter>
     <div>
       <Switch>
-      <Route exact path="/" component={Projects} />
-      <Route path="/projects" component={Projects} />
-      <Route path="/about" component={About} />
-      <Route path="/blogs" component={Blogs} />
-      <Route path="/blog/:tag" component={Blog} />
-      <Route component={NoMatchPage} />
+      <Route exact path={process.env.PUBLIC_URL + "/"} component={About} />
+      <Route path={process.env.PUBLIC_URL + "/projects"} component={Projects} />
+      <Route path={process.env.PUBLIC_URL + "/about"} component={About} />
+      <Route path={process.env.PUBLIC_URL + "/blogs"} component={Blogs} />
+      <Route path={process.env.PUBLIC_URL + "/blog/:tag"} component={Blog} />
       </Switch>
     </div>
-  </Router>
+  </HashRouter>
 );
 
 ReactDOM.render(routing, document.getElementById('root'));
@@ -43,4 +28,4 @@ ReactDOM.render(routing, document.getElementById('root'));
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+serviceWorker.register();
