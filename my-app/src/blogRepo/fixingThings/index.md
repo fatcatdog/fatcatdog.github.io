@@ -10,7 +10,8 @@ In 2020 I've repaired:
 
 For me:
 
-2020 Moto E (screen replacement)
+2020 Moto E (failed screen replacement)
+* * * While most of these devices are extremely cheap based on purchase price, they simply aren't designed to be repaired easily. To replace the screen of the device, this requires a complete device teardown (unscrewing 20 or screen and unconnecting all cables before removing battery which is not designed to be removed). Unfortunately, I rushed while attempting to remove the battery and didn't loosen the adhesive attaching battery to screenside of frame with a hair dryer enough, causing the battery to crack and catch fire.
 * * * The value of this device purchased brand new is about 120$ on Amazon
 * * * Screen costs 60 due to lack of availability on the second hand market (Motorola doesn't sell parts)
 * * * Cost of certified repair (Motorola partners with shops to deliver parts) would be 150$ or mailing direct to to Motorola would be 130$
@@ -29,7 +30,8 @@ Two Iphone 7 screen replacements
 
 Family:
 
-4th Gen Ipad (screen replacement)
+4th Gen Ipad (somewhat-failed screen replacement)
+* * * This didnt catch fire or anything. But unfortunately, i suspect I did not clean the residue/adhesive off the frame enough before attempting to place the new screen digitizer on. If it was not residue causing this failure, I suspect the plastic frame for the digitizer bought off amazon was a milimeter or two smaller than the screen, and this contributed to preventing the screen from setting in perfectly. Because of the Ipad case we had, the Ipad is still very much usable, but removing the Ipad out of the case is no longer advised. After factory reseting the Ipad, [Apple sign in was down for at least 24 hours](https://www.theverge.com/2020/12/26/22200371/apple-icloud-sign-activation-down-support-iphone-home-pod), and many of the applications my family were using on this were no longer available for use due to Ipad 4's OS being too outdated for a few of our favorite apps, made this replacement especially more frustrating.
 * * * Screen/Digitizer costs $15 on Amazon
 * * * Apple fee would be $300 to repair out of warranty
 * * * Newer models go for less than $300 on Amazon refurbished
