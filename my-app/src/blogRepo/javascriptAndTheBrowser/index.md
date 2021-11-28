@@ -8,7 +8,7 @@
 
 ## JavaScript: What is it?
 
-[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) is a programming language that gained notoriety for being so useful on the web. [W3 Techs] (https://w3techs.com/technologies/details/cp-javascript) says 97% percent of websites use JavaScript on their front ends. On the back end of things, Node.js, the popular JavaScript runtime environment, continues to gain market share in usage as well for developers.
+[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) is a programming language that gained notoriety for being useful on the web. [W3 Techs] (https://w3techs.com/technologies/details/cp-javascript) says 97% percent of websites use JavaScript on their front ends. On the back end of things, Node.js, the popular JavaScript runtime environment, continues to gain market share in usage as well for developers.
 
 To quote [Jeff Atwood](https://en.wikipedia.org/wiki/Jeff_Atwood), “Any application that can be written in JavaScript, will eventually be written in JavaScript.”
 
@@ -16,7 +16,7 @@ Jeff’s statement is knowns as Atwood’s Law. In 2020, it increasingly looks l
 
 ## What is a web browser?
 
-Web browsers enable users to look around the internet! Google Chome, Apple’s Safari, and Mozilla FireFox are a few of the popular ones. [Here](https://www.mozilla.org/en-US/firefox/browsers/what-is-a-browser/) is a better explanation.
+Web browsers enable users to look around the internet! Google Chrome, Apple’s Safari, and Mozilla FireFox are a few of the popular ones. [Here](https://www.mozilla.org/en-US/firefox/browsers/what-is-a-browser/) has a better explanation.
 
 ## What happens when a user types a website address into a browser and clicks enter?
 
@@ -24,11 +24,11 @@ Web browsers enable users to look around the internet! Google Chome, Apple’s S
 
 When a user on a web browser, enters a website URL, such as, www.google.com or www.fatcatdog.github.io, into a browser search bar and hits enter, what happens next?
 
-The way I understand it is the following:
+The way I understand it, is the following:
 
-We will refer to the user’s browser as the client (on their smartphone or laptop). The client sends a request to a web server asking for the contents of the website at address www.google.com/, which is mapped to an IP address like 123.123.123 (basically a phone number for computers) using the [DNS system](https://en.wikipedia.org/wiki/Domain_Name_System), which is pretty much a phonebook for computers. Assuming the web server we’ve been routed to behind www.google.com is up and running, Google’s backend server responds with the assets like HTML, images, CSS, and JavaScript back to the user’s client over the cable wire connected from Google’s local CDN to our Wifi modem.
+We will refer to the user’s browser (Google Chrome or Safari etc.) as the client (on their smartphone or laptop). The client sends a request to a web server asking for the contents of the website at address www.google.com/, which is mapped to an IP address like 123.123.123 (basically a phone number for computers) using the [DNS system](https://en.wikipedia.org/wiki/Domain_Name_System), which is pretty much a phonebook for computers. Assuming the web server we’ve been routed to behind www.google.com is up and running, Google’s backend server responds with the assets like HTML, images, CSS, and JavaScript back to the user’s client over the cable wire connected from Google’s local CDN to our Wifi modem.
 
-The explanation I just gave skips over many important aspects of modern web applications that are pretty much common to high-traffic websites like [CDN](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/), [load balancers](https://www.nginx.com/resources/glossary/load-balancing/), [firewalls](https://www.cisco.com/c/en/us/products/security/firewalls/what-is-a-firewall.html) , [web servers](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server) and [databases](https://www.oracle.com/database/what-is-database/). A common interview question for developers is actually, “Explain to me what happens when a user puts www.google.com into a browser and hits enter?”. Mozilla gives a great introductory explanation [here](https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work). [Mariko Kosaka](https://twitter.com/kosamari) of Google gives a much more in depth explanation [here](https://developers.google.com/web/updates/2018/09/inside-browser-part1#cpu_gpu_memory_and_multi-process_architecture)
+The explanation I just gave skips over many important parts of modern web infrastructure that are pretty much common to all high-traffic websites like [CDNs](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/), [load balancers](https://www.nginx.com/resources/glossary/load-balancing/), [firewalls](https://www.cisco.com/c/en/us/products/security/firewalls/what-is-a-firewall.html), [web servers](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server) and [databases](https://www.oracle.com/database/what-is-database/). A common interview question for developers is actually, “Explain to me what happens when a user puts www.google.com into a browser and hits enter?”. Mozilla gives a great introductory explanation [here](https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work). [Mariko Kosaka](https://twitter.com/kosamari) of Google gives a much more in depth explanation [here](https://developers.google.com/web/updates/2018/09/inside-browser-part1#cpu_gpu_memory_and_multi-process_architecture)
 
 Realistically, 99.9% of developers, including me, wouldn’t be able to explain what happens when you hit enter to the extent of Mariko’s explanation, but it’s good to know the things you don’t know.
 
@@ -48,7 +48,7 @@ In 1995, JavaScript was initially designed and released to the public to perform
 
 In a [lecture](https://www.youtube.com/watch?v=v2ifWcnQs6) by [Douglas Crockford](https://en.wikipedia.org/wiki/Douglas_Crockford), a well known JavaScript professional, Douglas details the logic the designers and experts of the JavaScript language were forced to use to continually improve and design JavaScript over the years. Because so many developers and companies were using JavaScript as soon as it was made available to the public, the designers of the language were not really able to design a language as they would have preferred, but rather, the brains behind JavaScript were forced to channel most of their energies into not breaking every website on the internet while working on introducing newer needed features into the language.
 
-So in a way, some things about JavaScript [don’t make too much sense](https://medium.com/javascript-non-grata/the-top-10-things-wrong-with-javascript-58f440d6b3d8). Regardless of that, for early career devs who want to get hired, JavaScript is a great language to learn because of its usage in the market even though many aspects of the language simply don’t make sense intuitively and can cause great headaches to JavaScript devs.
+So in a way, some things about JavaScript [don’t make too much sense](https://medium.com/javascript-non-grata/the-top-10-things-wrong-with-javascript-58f440d6b3d8) because they were never intentially designed, but rather the language was given broad requirements by every major website in existance at the time. Regardless of that, for early career devs who want to get hired, JavaScript is a great language to learn because of its usage in the market even though many aspects of the language simply don’t make sense intuitively and can cause great headaches.
 
 How could we find out if a website is using JavaScript running in its front end?
 
@@ -58,7 +58,7 @@ Click the Sources tab
 
 <img height="400" src="../javascriptAndTheBrowser/indexFileShowingNoScript.png" alt="Index.html file in sources tab in Chrome dev tools">
 
-Click the file called index on the left side of the page. By default, browsers attempt to open up the index.html file located at the root of the web application folder upon loading assets from a URL. If you see anything like “<noscript>You need to enable JavaScript to run this app.</noscript>” Chances are that website is using additional JavaScript on the front end to instruct the web application to render the website. Some users disable JavaScript in their browsers, so this message will be rendered to the user if this is the case for them. If we see any "function"s in between any <script> and </script> tag, like we do in the above screenshot, that look like JavaScript to me as well!
+Click the file called index on the left side of the page. By default, browsers attempt to open up the index.html file located at the root of the web application folder upon loading assets from a URL. If you see anything like “<noscript>You need to enable JavaScript to run this app.</noscript>” Chances are that website is using additional JavaScript on the front end to instruct the web application how to render the website. Some users disable JavaScript in their browsers, so this message will be rendered to the user if this is the case for them. If we see any "function"s in between any <script> and </script> tag, like we do in the above screenshot, that looks like JavaScript to me as well!
 
 <img height="45" src="../javascriptAndTheBrowser/showingImportCSSSHeets.png" alt="Index.html file showing css imports">
 
@@ -73,7 +73,7 @@ Lets look at the other folders and files in our folder. We want to stay in the f
 
 <img height="400" src="../javascriptAndTheBrowser/allStaticFiles.png" alt="Lots of files in our sources tab">
 
-My website, fatcatdog.github.io, is built with React's Create React App framework. If you look at a Create React App's configuration files, there is a lot going on. To be honest, i don't understand what all the different properties and settings are doing. Create React App definitly saved time in building this website though.
+My website, fatcatdog.github.io, is built with React's Create React App framework. If you look at a Create React App's configuration files, there is a lot going on. To be honest, i don't understand what all the different properties and settings are doing. Tools like "Create React App" help save developers time in building their sites.
 
 ## Lets try execute some JavaScript in Chrome Dev Tools
 
@@ -107,7 +107,7 @@ It looks like average Americans are missing out on close to $1,000,000 dollars i
 
 2. I am going to add an index.html file in my folder.
 
-If you are on a Mac. You can execute these commands to create your folder, and file, using the Terminal. Commands might differ if you are using an alternative operating system.
+If you are on a Mac. You can execute these commands to create your folder, and file, using the Terminal. Commands might differ if you are using an alternative operating system like Windows.
 
 <img height="300" src="../javascriptAndTheBrowser/terminalScreenshot.png" alt="Screenshot of my terminal">
 
@@ -131,7 +131,7 @@ If you are on a Mac. You can execute these commands to create your folder, and f
 
 4. Now i am going to copy the location of my newly created index.html file, so for me it:
 
-/Users/jacob/desktop/JavaScriptInTheBrowser/index.html
+/Users/username/desktop/JavaScriptInTheBrowser/index.html
 
 I am going to paste it in the browser, and voila, I see my index.html file in action!
 
