@@ -1,0 +1,21 @@
+
+
+body {
+    /* Fallback color for browsers without gradient support */
+    background-color: #f0f0f0;
+    /* Define the gradient direction and colors */
+    background-image: linear-gradient(to bottom, #3d7eaa, #ffe47a);
+    /* Ensure the background covers the entire viewport */
+    height: 100vh;
+    margin: 0;
+    /* Add some padding for the content */
+    padding: 20px;
+    font-size: 50px;
+    margin-left: 100px;
+    padding-top: 100px;
+
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
