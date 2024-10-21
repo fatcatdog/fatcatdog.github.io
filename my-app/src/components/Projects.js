@@ -12,6 +12,7 @@ const Projects = () => {
       <div className="projectsHeader">
         <h2>Personal Projects</h2>
       </div>
+
       <div className="projectsContainer">
       <div className="listOfProjects">
           <p>Most of these projects don't really dive too deep into any particular technology, but hopefully they can be used by fellow beginners to guide them into a framework or technology:</p>

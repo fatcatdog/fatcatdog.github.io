@@ -1,10 +1,16 @@
 .projectsHeader{
   text-align: center;
+  font-family: 'Karla', sans-serif;
+  list-style-type: none;
+
 }
 
 .projectsContainer{
-  width: 50%;
+  font-family: 'Karla', sans-serif;
+  width: 70%;
   margin: 0 auto;
+  list-style: none;
+
 }
 
 .listOfProjects{
@@ -12,11 +18,18 @@
   /* text-align: left; */
   width: 100%;
   margin: 0 auto;
+  list-style: none;
 
 }
 
+.ourListStyles{
+  list-style: none;
+}
+
 .projectTitle{
-  text-align: center;
+  text-align: center; 
+  font-weight: bold;
+
 }
 
 @media (max-width:600px) {
